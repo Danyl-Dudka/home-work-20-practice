@@ -1,13 +1,13 @@
 //Number 5
-let a = 26;
-let firstDigit = Math.floor(a / 10 % 10);
-let lastDigit = a % 10;
+let a5 = 26;
+let firstDigit5 = Math.floor(a5 / 10 % 10);
+let lastDigit5 = a5 % 10;
 
-if (firstDigit === lastDigit) {
-    console.log("Числа однакові")
+if (firstDigit5 === lastDigit5) {
+    console.log("Числа однакові");
 }
-else if (firstDigit > lastDigit) {
-    console.log("Перша цифра більша за другу")
+else if (firstDigit5 > lastDigit5) {
+    console.log("Перша цифра більша за другу");
 } else {
-    console.log("Друга цифра більша за першу")
+    console.log("Друга цифра більша за першу");
 }

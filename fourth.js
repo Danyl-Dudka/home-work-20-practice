@@ -1,10 +1,9 @@
 //Number 4
-let a = 3214;
-let lastDigit = (a % 10);
-console.log(lastDigit)
+let a4 = 3214;
+let lastDigit4 = (a4 % 10);
 
-if (lastDigit % 2 === 0) {
-    console.log("Остання цифра парна")
-} else if (lastDigit % 2 !== 0) {
-    console.log("Остання цифра непарна")
+if (lastDigit4 % 2 === 0) {
+    console.log("Остання цифра парна: " + lastDigit4);
+} else if (lastDigit4 % 2 !== 0) {
+    console.log("Остання цифра непарна: " + lastDigit4);
 }

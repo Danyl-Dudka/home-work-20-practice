@@ -1,18 +1,18 @@
 //Number 7
-let a = 123;
+let a7 = 123;
 
-let firstDigit = Math.floor(a / 100 % 10);
-let secondDigit = Math.floor(a / 10 % 10);
-let thirdDigit = Math.floor(a % 10);
+let firstDigit7 = Math.floor(a7 / 100 % 10);
+let secondDigit7 = Math.floor(a7 / 10 % 10);
+let thirdDigit7 = Math.floor(a7 % 10);
 
-if (firstDigit === secondDigit && secondDigit === thirdDigit) {
-    console.log("All numbers is the same")
+if (firstDigit7 === secondDigit7 && secondDigit7 === thirdDigit7) {
+    console.log("Всі номери однакові");
 } else {
-    console.log("Not all numbers are the same")
+    console.log("Не всі номери однакові");
 }
 
-if (firstDigit === secondDigit || secondDigit === thirdDigit || firstDigit === thirdDigit) {
-    console.log("Some numbers are the same")
+if (firstDigit7 === secondDigit7 || secondDigit7 === thirdDigit7 || firstDigit7 === thirdDigit7) {
+    console.log("Деякі номери однакові");
 } else {
-    console.log("All numbers are different")
+    console.log("Всі номери різні");
 }

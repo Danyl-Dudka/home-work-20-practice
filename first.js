@@ -1,10 +1,10 @@
 // Number 1
-let a = 5;
-let b = 7;
-if (a > b) {
-    console.log("A більше B")
-} else if (a === b) {
-    console.log ("A дорівнює B")
+let a1 = 5;
+let b1 = 7;
+if (a1 > b1) {
+    console.log("A більше B");
+} else if (a1 === b1) {
+    console.log ("A дорівнює B");
 } else {
-    console.log("B більше A")
+    console.log("B більше A");
 }

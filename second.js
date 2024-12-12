@@ -5,9 +5,9 @@ let feetToMetres = 0.305;
 
 let resultft = feets * feetToMetres;
 if (kilometres > resultft) {
-    console.log("Відстань в кілометрах більша")
+    console.log("Відстань в кілометрах більша");
 } else if (kilometres === resultft) {
-    console.log("Відстань однакова")
+    console.log("Відстань однакова");
 } else {
-    console.log("Відстань в футах більша")
+    console.log("Відстань в футах більша");
 } 

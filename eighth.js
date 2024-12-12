@@ -1,15 +1,15 @@
 //Number 8
-let a = 123321;
+let a8 = 123321;
 
-let firstDigit = Math.floor(a / 100000 % 10);
-let secondDigit = Math.floor(a / 10000 % 10);
-let thirdDigit = Math.floor(a / 1000 % 10);
-let fourthDigit = Math.floor(a / 100 % 10);
-let fifthDigit = Math.floor(a / 10 % 10);
-let sixthDigit = a % 10;
+let firstDigit8 = Math.floor(a8 / 100000 % 10);
+let secondDigit8 = Math.floor(a8 / 10000 % 10);
+let thirdDigit8 = Math.floor(a8 / 1000 % 10);
+let fourthDigit8 = Math.floor(a8 / 100 % 10);
+let fifthDigit8 = Math.floor(a8 / 10 % 10);
+let sixthDigit8 = a8 % 10;
 
-if (firstDigit === sixthDigit && secondDigit === fifthDigit && thirdDigit === fourthDigit) {
-    console.log("Your number is mirrored")
+if (firstDigit8 === sixthDigit8 && secondDigit8 === fifthDigit8 && thirdDigit8 === fourthDigit8) {
+    console.log("Твій номер зеркальний");
 } else {
-    console.log("Your number is not a mirror")
+    console.log("Твій номер не зеркальний");
 }
