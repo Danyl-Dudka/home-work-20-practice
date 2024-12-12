@@ -8,4 +8,6 @@ if (a3 % b3 === 0) {
     console.log("B є дільником числа A");
 } else if (a3 === b3) {
     console.log("Числа однакові");
+} else {
+    console.log("Числа різні та не діляться")
 }
